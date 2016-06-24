@@ -2,6 +2,7 @@
 Angular Differential Imaging (ADI): a technique that removes a parent star's light and reveals exoplanets.
 
 This code requires the astropy and skimage pages Python pages.
+The input are FITS files and whitespace delimited parallactic angles.
 
 ADI uses the rotation of the sky during an observation of a star. An average of the images take are used to subtract the parent star's light, the images are de-rotated and combined, and direct images of the exoplanets are produced.
 
